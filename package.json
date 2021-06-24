@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-final-automation",
+  "version": "1.0.0",
+  "description": "Proyecto Final Automation Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio",
+    "test2": "npx wdio --mochaOpts.grep RESULTS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charris1904/proyecto-final-automation-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charris1904/proyecto-final-automation-js/issues"
+  },
+  "homepage": "https://github.com/Charris1904/proyecto-final-automation-js#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.7.3",
+    "@wdio/dot-reporter": "^7.7.3",
+    "@wdio/local-runner": "^7.7.3",
+    "@wdio/mocha-framework": "^7.7.3",
+    "@wdio/spec-reporter": "^7.7.3",
+    "chromedriver": "^91.0.0",
+    "wdio-chromedriver-service": "^7.1.0"
+  }
+}
